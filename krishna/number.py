@@ -3,7 +3,7 @@ def decimal_to_octal(decimal_number):
     octal_number =""
     while decimal_number > 0:
         remainder = decimal_number % 8
-        decimal_number //= 8
+        decimal_number //= 10
         octal_number = str(remainder) + octal_number
     return octal_number
 
